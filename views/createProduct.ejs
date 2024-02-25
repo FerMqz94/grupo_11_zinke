@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("./partials/head", {view : "Crear producto"}) %>
+<body>
+    <%- include("./partials/header", { productos: "black"}) %>
+
+<main class="crear-producto">
+
+        <!--CONTENEDOR GLOBAL DE CREACIÓN DE PRODUCTO-->
+
+    <div class="vista-producto-crear-editar-contenedor my-4">
+          
+            <!--BOTÓN DE RETORNO Y TÍTULO-->
+
+        <div class="contenedor-titulo-boton-crear-editar d-flex flex-column flex-md-row justify-content-between">
+            <a href="" class="btn btn-custom-crear-producto my-3 my-md-5 d-sm-block d-md-inline-block">Volver al listado</a>
+            <h1 class="text-custom-crear-producto my-3 my-md-5 d-sm-block d-md-inline-block">Crear Producto</h1>
+        </div>
+
+        <!--FORMULARIOS DE DATOS-->
+
+       <div class="card">
+                    
+        <form action="" method="POST" class="my-5"> 
+
+        <div class="container">
+            <div class="d-flex row p-0 justify-content-center">
+                <!--NOMBRE DEL PRODUCTO-->
+                <div class="nombre-producto-crear-edit d-flex flex-column col-10 my-3">
+                    <label for="" class="nombre-producto">Nombre del producto</label>
+                    <input class="nombre-producto" type="text" name="" id="">
+                </div>
+
+                <!---PRECIO DEL PRODUCTO-->
+                <div class="precio-producto-crear-edit d-flex flex-column col-10 my-3">
+                    <label for="" class="precio-producto">Precio</label>
+                    <input class="precio-producto" type="number" name="" id="">
+                </div>
+
+                <!--SELECCIÓN DE CATEGORÍA-->
+                <div class="seleccionar-categoria my-3 col-10">
+                    <select class="col-12 categoria-producto" id="">
+                        <option selected hidden class="texto-selector-categoria">Categorías de producto</option>
+                        <option value="1">Abrigos</option>
+                        <option value="2">Jeans</option>
+                        <option value="3">Buzos y sweaters</option>
+                        <option value="4">Remeras</option>
+                        <option value="5">Camisas y blusas</option>
+                        <option value="6">Tops</option>
+                        <option value="7">Pantalones y shorts</option>
+                        <option value="8">Vestidos y polleras</option>
+                        <option value="9">Cápsula Beige</option>
+                        <option value="10">Cápsula American</option>
+                        <option value="11">Cápsula 3024</option>
+                      </select>
+                      <i class="fa-solid fa-caret-down"></i>
+                    
+                </div>
+
+               <div class="col-10 my-3 descripcion-producto-crear-editar">
+                <div class="texarea-descripcion-mayor">
+                    <textarea class="form-control my-1" placeholder="Descripción del producto" id="descripcion-producto-crear-edit" style="height: 200px"></textarea>
+                </div>    
+                <div class="textarea-descripcion-destacada">
+                    <textarea class="form-control my-1" placeholder="Descripción destacada del producto" id="descripcion-detacada-c-e-producto"></textarea>
+                </div>
+                </div>
+
+                <!--TALLES PRODUCTO-->
+                <div class="talles-producto-crear-edit d-flex flex-wrap my-3 col-10">
+                    <h3 class="titulo-talles col-12 my-3">Talles</h3>
+                    <div class="contenedor-talle d-flex align-items-center col-5 my-2">
+                        <input type="checkbox" class="custom-checkbox" id="talle1" autocomplete="off">
+                        <i class="fa-solid fa-check"></i>
+                        <label class="mx-2" for="talle1">1</label>
+                    </div>
+                    <div class="contenedor-talle d-flex align-items-center col-5 my-2">
+                        <input type="checkbox" class="custom-checkbox" id="talle2" autocomplete="off">
+                        <i class="fa-solid fa-check"></i>
+                        <label class="mx-2" for="talle2">2</label>
+                    </div>
+                    <div class="contenedor-talle d-flex align-items-center col-5 my-2">
+                        <input type="checkbox" class="custom-checkbox" id="talle3" autocomplete="off">
+                        <i class="fa-solid fa-check"></i>
+                        <label class="mx-2" for="talle3">3</label>
+                    </div>
+                    <div class="contenedor-talle d-flex align-items-center col-5 my-2">
+                        <input type="checkbox" class="custom-checkbox" id="talle4" autocomplete="off">
+                        <i class="fa-solid fa-check"></i>
+                        <label class="mx-2" for="talle4">4</label>
+                    </div>
+                    <div class="contenedor-talle d-flex align-items-center col-5 my-2">
+                        <input type="checkbox" class="custom-checkbox" id="talle5" autocomplete="off">
+                        <i class="fa-solid fa-check"></i>
+                        <label class="mx-2" for="talle5">5</label>
+                    </div>
+                </div>
+
+                <div class="colores-producto-editar-crear d-flex flex-wrap my-3 col-10">
+                    <h3 class="titulo-colores col-12 my-3">Colores</h3>
+                        <div class="checkbox-color d-flex align-items-center col-6 my-2">
+                        <input type="checkbox" class="input-color negro" id="negro" autocomplete="off">
+                        <label class="label-color mx-2" for="negro">Negro</label>
+                        </div>
+                      
+                        <div class="checkbox-color d-flex align-items-center col-6 my-2">
+                        <input type="checkbox" class="input-color beige" id="beige" autocomplete="off">
+                        <label class="label-color mx-2" for="beige">Beige</label>
+                        </div>
+
+                        <div class="checkbox-color d-flex align-items-center col-6 my-2">
+                        <input type="checkbox" class="input-color azul" id="azul" autocomplete="off">
+                        <label class="label-color mx-2" for="azul">Azul</label>
+                        </div>
+
+                        <div class="checkbox-color d-flex align-items-center col-6 my-2">
+                        <input type="checkbox" class="input-color blanco" id="blanco" autocomplete="off">
+                        <label class="label-color mx-2" for="blanco">Blanco</label>
+                        </div>
+
+                        <div class="checkbox-color d-flex align-items-center col-6 my-2">
+                        <input type="checkbox" class="input-color rojo" id="rojo" autocomplete="off">
+                        <label class="label-color mx-2" for="rojo">Rojo</label>
+                        </div>
+                        
+                        <div class="checkbox-color d-flex align-items-center col-6 my-2">
+                        <input type="checkbox" class="input-color verde" id="verde" autocomplete="off">
+                        <label class="label-color mx-2" for="verde">Verde</label>
+                        </div>
+
+                        <div class="checkbox-color d-flex align-items-center col-6 my-2">
+                        <input type="checkbox" class="input-color violeta" id="violeta" autocomplete="off">
+                        <label class="label-color mx-2" for="violeta">Violeta</label>
+                        </div>
+
+                        <div class="checkbox-color d-flex align-items-center col-6 my-2">
+                        <input type="checkbox" class="input-color naranja" id="naranja" autocomplete="off">
+                        <label class="label-color mx-2" for="naranja">Naranja</label>
+                        </div>
+
+                        <div class="checkbox-color d-flex align-items-center flex-wrap col-6 my-2">
+                        <input type="checkbox" class="input-color celeste" id="btncheck3" autocomplete="off">
+                        <label class="label-color mx-2" for="btncheck3">Celeste</label>
+                        </div>
+
+                        <div class="checkbox-color d-flex align-items-center col-6 my-2">
+                        <input type="checkbox" class="input-color gris" id="btncheck3" autocomplete="off">
+                        <label class="label-color mx-2" for="btncheck3">Gris</label>
+                        </div>
+ 
+                        <div class="checkbox-color d-flex align-items-center col-6 my-2">
+                        <input type="checkbox" class="input-color lila" id="btncheck3" autocomplete="off">
+                        <label class="label-color mx-2" for="btncheck3">Lila</label>
+                        </div>
+
+                        <div class="checkbox-color d-flex align-items-center col-6 my-2">
+                        <input type="checkbox" class="input-color rosa" id="btncheck3" autocomplete="off">
+                        <label class="label-color mx-2" for="btncheck3">Rosa</label>
+                        </div>
+
+                        <div class="checkbox-color d-flex align-items-center flex-wrap col-6 my-2">
+                        <input type="checkbox" class="input-color plata" id="btncheck3" autocomplete="off">
+                        <label class="label-color mx-2" for="btncheck3">Plata</label>
+                        </div>
+
+                        <div class="checkbox-color d-flex align-items-center  flex-wrap col-6 my-2">
+                        <input type="checkbox" class="input-color petroleo" id="btncheck3" autocomplete="off">
+                        <label class="label-color mx-2" for="btncheck3">Petroleo</label>
+                        </div>
+
+                        <div class="checkbox-color d-flex align-items-center flex-wrap col-6 my-2">
+                        <input type="checkbox" class="input-color dorado" id="btncheck3" autocomplete="off">
+                        <label class="label-color mx-2" for="btncheck3">Dorado</label>
+                        </div>
+                    </div>
+                
+
+                <!---------NUEVO - OFERTA---------->
+                    <div class="nuevo-oferta d-flex my-3 col-10">
+                   
+                        <div class="nuevo col-6">
+                            <label class="" for="option1">
+                                <input type="radio" class="" name="options" id="option1" autocomplete="off">
+                                <div class="nuevo-oferta-contenedor d-flex align-items-center justify-content-center">
+                                <span>Nuevo</span>
+                                </div>
+                            </label>
+                        </div>
+
+                        <div class="oferta col-6">
+                            <label class="" for="option2">
+                                <input type="radio" class="" name="options" id="option2" autocomplete="off" checked>
+                                <div class="nuevo-oferta-contenedor d-flex align-items-center justify-content-center">
+                                    <span>Oferta</span>
+                                </div>
+                            </label>
+                        </div>    
+                    </div>
+
+                <!------DISPONIBLE-------->
+                <div class="form-check form-switch d-flex my-3 col-10 mx-auto">
+                    <div class="contenedor-switch col-10">
+                        <input type="checkbox" class="input-switch-disponible" id="disponible">
+                        <label class="mx-5" for="disponible">Disponible</label>
+                    </div>
+                    <!--<input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                    <label class="form-check-label mx-2" for="flexSwitchCheckDefault">Disponible</label>-->
+                </div>
+            
+        
+
+                <!--SUBIR IMAGEN-->
+                <div class="subir-imagen my-4">
+                    <h3 class="my-4 text-center">Imagen producto</h3>
+                    
+                    <div class="contenedor-input-label-crear-producto">
+                        <input id="subirImagen" class="input-imagen-crear-edit-producto" type="file" name="imgenProducto" accept="image/*" multiple />
+                        <label class="editar-crear-producto" for="subirImagen" id="">
+                        <div class="icono-archivo-imagen-crear-editar">
+                            <i class="fa fa-download"></i>
+                            <div>Seleccioná un archivo o arrastralo acá</div>
+                            <span id="" class="btn btn-primary">Subí archivos</span>
+                            <span class="mensaje-para-usuario-imagen-crear-edit">Formato de archivo no válido</span>
+                        </div>
+                        </label>
+                    </div>    
+                </div>
+            
+                </div>
+
+            </div>
+            
+            </form> 
+        </div>
+    </div>
+</main>
+
+     <%- include("./partials/footer")  %>
+  
+</body>
+</html>

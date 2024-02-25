@@ -1,0 +1,594 @@
+
+/*CONTENEDOR GLOBAL DE TODOS LOS ESTILOS*/
+main.crear-producto div.vista-producto-crear-editar-contenedor{
+    margin-left: 50px;
+    width: 80%;
+}
+
+/*CONTENEDOR BOTÓN VOLVER Y TÍTULO PRINCIPAL*/
+main.crear-producto div.vista-producto-crear-editar-contenedor div.contenedor-titulo-boton-crear-editar{
+    width: 100%;
+}
+
+/*BOTÓN VOLVER A LISTADO DE PRODUCTO*/
+main.crear-producto div.vista-producto-crear-editar-contenedor  a.btn-custom-crear-producto{
+    font-size: var(--letra-mediana);
+    background-color: var(--verde-azulado-claro);
+    color: var(--blanco);
+    border: none;
+    width: 150px;
+    height: 35px;
+    transition: all 1s ease-in-out;
+}
+
+main.crear-producto div.vista-producto-crear-editar-contenedor  a.btn-custom-crear-producto:hover{
+   background-color: var(--gris85);
+   color: var(--verde-azulado-claro)
+}
+
+/*TITULO MAYOR DE LA PÁGINA*/
+main.crear-producto div.vista-producto-crear-editar-contenedor div.contenedor-titulo-boton-crear-editar h1.text-custom-crear-producto{
+    font-size: var(--letra-favMobile);
+    background: linear-gradient(var(--verde-azulado-claro), var(--molocoton-oscuro));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/*CONTENEDOR DE TODOS LA FORM*/
+main.crear-producto div.vista-producto-crear-editar-contenedor div.card {
+    border: none;
+    box-shadow: 0 0 20px 4px rgba(249, 155, 128, 0.4);
+}
+
+/*CONTENEDOR DEL INPUT NOMBRE PRODUCTO*/
+main.crear-producto div.vista-producto-crear-editar-contenedor div.card div.container div div.nombre-producto-crear-edit {
+
+}
+
+/*LABEL NOMBRE PRODUCTO*/
+main.crear-producto div.vista-producto-crear-editar-contenedor div.card div.container div div.nombre-producto-crear-edit label.nombre-producto{
+  color: var(--verde-azulado-claro);
+  font-size: var(--letra-mediana);
+  margin-bottom: 7px;
+
+}
+
+/*IMPUT NOMBRE PRODUCTO*/
+main.crear-producto div.vista-producto-crear-editar-contenedor div.card div.container div div.nombre-producto-crear-edit input.nombre-producto{
+  border: 1.5px solid var(--gris-claro);
+  border-radius: 10px;
+  padding: 7px 10px;
+  height: 42px;
+}
+
+main.crear-producto div.vista-producto-crear-editar-contenedor div.card div.container div div.nombre-producto-crear-edit input.nombre-producto:focus{
+  outline: none;
+  border: none;
+  box-shadow: 0 0 2px 2px inset var(--molocoton-oscuro);
+}
+
+/*CONTENEDPOR PRECIO PRODUCTO*/
+main.crear-producto div.vista-producto-crear-editar-contenedor div.card div.container div div.precio-producto-crear-edit{
+
+}
+
+/*LABEL PRECIO PRODUCTO*/
+main.crear-producto div.vista-producto-crear-editar-contenedor div.card div.container div div.precio-producto-crear-edit label.precio-producto{
+  color: var(--verde-azulado-claro);
+  font-size: var(--letra-mediana);
+  margin-bottom: 7px;
+
+}
+
+/*INPUT PRECIO PRODUCTO*/
+main.crear-producto div.vista-producto-crear-editar-contenedor div.card div.container div div.precio-producto-crear-edit input.precio-producto{
+  border: 1.5px solid var(--gris-claro);
+  border-radius: 10px;
+  padding: 7px 10px;
+  height: 42px;
+}
+
+main.crear-producto div.vista-producto-crear-editar-contenedor div.card div.container div div.precio-producto-crear-edit input.precio-producto:focus{
+  outline: none;
+  border: none;
+  box-shadow: 0 0 2px 2px inset var(--molocoton-oscuro);
+}
+
+/*SELECCIONAR CATEGORIA DE PRODUCTO*/
+main.crear-producto div.seleccionar-categoria {
+  position: relative;
+}
+
+main.crear-producto div.seleccionar-categoria select.categoria-producto{
+  appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+  border: 1.5px solid var(--gris-claro);
+/*  display: inline-block;*/
+	width: 100%;
+	cursor: pointer;
+  padding: 7px 10px;
+  height: 42px;
+  color: var(--gris-pizarra);
+  background-color: rgba(249, 155, 128, 0.4);
+  border-radius: 10px;
+  position: relative;
+  transition: all 0.5s ease;
+	font-size: var(--letra-pequeña);
+}
+
+main.crear-producto div.seleccionar-categoria select.categoria-producto::-ms-expand{
+  display: none;
+}
+
+main.crear-producto div.seleccionar-categoria select.categoria-producto:hover{
+	background: var(--molocoton-oscuro);
+}
+
+
+main.crear-producto div.seleccionar-categoria select.categoria-producto:focus{
+  outline: none;
+  border: none;
+  box-shadow: 0 0 2px 2px inset var(--molocoton-oscuro);
+}
+
+/*-----ICONO DEL SELECT----------*/
+main.crear-producto div.seleccionar-categoria i.fa-caret-down{
+  color: var(--molocoton-oscuro);
+  font-size: 1.2rem;
+	position: absolute;
+	right: 30px;
+	top: calc(50% - 10px);
+	display: block;
+}
+
+/*--------DESCRIPCIÓN DEL PRODUCTO----------*/
+
+/*DESCRIPCIÓN MAYOR O MÁS LARGA*/
+main.crear-producto div.descripcion-producto-crear-editar div.texarea-descripcion-mayor{
+
+}
+
+main.crear-producto div.descripcion-producto-crear-editar div.texarea-descripcion-mayor textarea{
+  border-radius: 10px;
+  border: 1.5px solid var(--gris-claro);
+
+}
+
+main.crear-producto div.descripcion-producto-crear-editar div.texarea-descripcion-mayor textarea:focus{
+  outline: none;
+  border: none;
+  box-shadow: 0 0 2px 2px inset var(--molocoton-oscuro);
+}
+
+main.crear-producto div.descripcion-producto-crear-editar div.texarea-descripcion-mayor textarea::placeholder{
+  font-size: var(--letra-pequeña);
+  color: var(--verde-azulado-claro);
+}
+
+/*DESCRIPCIÓN DESTACADA DEL PRODUCTO*/
+
+main.crear-producto div.descripcion-producto-crear-editar div.textarea-descripcion-destacada{
+
+}
+
+main.crear-producto div.descripcion-producto-crear-editar div.textarea-descripcion-destacada textarea{
+  border-radius: 10px;
+  border: 1.5px solid var(--gris-claro);
+}
+
+main.crear-producto div.descripcion-producto-crear-editar div.textarea-descripcion-destacada textarea:focus{
+  outline: none;
+  border: none;
+  box-shadow: 0 0 2px 2px inset var(--molocoton-oscuro);
+}
+
+main.crear-producto div.descripcion-producto-crear-editar div.textarea-descripcion-destacada textarea::placeholder{
+  font-size: var(--letra-mas-pequeña);
+  color: var(--verde-azulado-claro);
+}
+
+/*CONTENEDOR TALLES Y OTROS ELEMENTOS QUE ESTÁN DENTRO DE ÉL*/
+main.crear-producto div.talles-producto-crear-edit {
+position: relative;
+}
+
+main.crear-producto div.talles-producto-crear-edit h3.titulo-talles{
+  font-size: var(--letra-grande);
+  line-height: 1;
+  color: var(--verde-azulado-claro);
+  margin-bottom: 0; 
+}
+
+main.crear-producto div.talles-producto-crear-edit div.contenedor-talle{
+  position: relative
+}
+
+main.crear-producto div.talles-producto-crear-edit input.custom-checkbox {
+  appearance: none;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 5px;
+  background-color: var(--gris-claro);
+  transition: all 0.5s;
+}
+
+main.crear-producto div.talles-producto-crear-edit div.contenedor-talle i.fa-check{
+ position: absolute;
+ font-size: 1.5rem;
+ left:5px;
+ top: 2px;
+ color: var(--blanco);
+ display: none;
+}
+
+main.crear-producto div.talles-producto-crear-edit label{
+  font-size: var(--letra-grande);
+  color: var(--gris-claro)
+}
+
+main.crear-producto div.talles-producto-crear-edit input.custom-checkbox:checked{
+  background-color: var(--molocoton-oscuro);
+}
+
+main.crear-producto div.talles-producto-crear-edit input.custom-checkbox:checked + i.fa-check {
+  display: block;
+}
+
+/*COLORES*/
+main.crear-producto div.colores-producto-editar-crear{
+
+}
+
+main.crear-producto div.colores-producto-editar-crear h3.titulo-colores{
+  font-size: var(--letra-grande);
+  line-height: 1;
+  color: var(--verde-azulado-claro);
+  margin-bottom: 0;
+}
+
+main.crear-producto div.colores-producto-editar-crear div.checkbox-color{
+  
+}
+
+/*SETEOS GRALES*/
+main.crear-producto div.colores-producto-editar-crear div.checkbox-color input.input-color{
+  appearance: none;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 5px;
+  background-color: var(--gris-claro);
+  transition: all 0.5s;
+} 
+
+
+main.crear-producto div.colores-producto-editar-crear div.checkbox-color label.label-color{
+  font-size: var(--letra-mediana);
+  color: var(--gris-claro)
+}
+
+/*COLOR POR COLOR EN EL CHECKED*/
+main.crear-producto div.colores-producto-editar-crear div.checkbox-color input.negro:checked{
+  background-color: black;
+}
+
+main.crear-producto div.colores-producto-editar-crear div.checkbox-color input.beige:checked{
+  background-color: beige;
+  border: 0.5px solid var(--gris85);
+}
+
+main.crear-producto div.colores-producto-editar-crear div.checkbox-color input.azul:checked{
+  background-color: blue;
+}
+
+main.crear-producto div.colores-producto-editar-crear div.checkbox-color input.blanco:checked{
+  background-color: white;
+  border: 0.5px solid var(--gris85);
+}
+
+main.crear-producto div.colores-producto-editar-crear div.checkbox-color input.rojo:checked{
+  background-color: red;
+}
+
+main.crear-producto div.colores-producto-editar-crear div.checkbox-color input.verde:checked{
+  background-color: green;
+}
+
+main.crear-producto div.colores-producto-editar-crear div.checkbox-color input.violeta:checked{
+  background-color: purple;
+}
+
+main.crear-producto div.colores-producto-editar-crear div.checkbox-color input.naranja:checked{
+  background-color: orange;
+}
+
+main.crear-producto div.colores-producto-editar-crear div.checkbox-color input.celeste:checked{
+  background-color: lightblue;
+}
+
+main.crear-producto div.colores-producto-editar-crear div.checkbox-color input.gris:checked{
+  background-color: gray;
+}
+
+main.crear-producto div.colores-producto-editar-crear div.checkbox-color input.lila:checked{
+  background-color: lavender;
+}
+
+main.crear-producto div.colores-producto-editar-crear div.checkbox-color input.rosa:checked{
+  background-color: pink;
+}
+
+main.crear-producto div.colores-producto-editar-crear div.checkbox-color input.plata:checked{
+  background-color: silver;
+  border: 0.5px solid var(--gris85);
+}
+
+main.crear-producto div.colores-producto-editar-crear div.checkbox-color input.petroleo:checked{
+  background-color: var(--verde-azulado);
+}
+
+main.crear-producto div.colores-producto-editar-crear div.checkbox-color input.dorado:checked{
+  background-color: gold;
+}
+
+/*NUEVO - OFERTA */
+
+main.crear-producto div.nuevo-oferta {
+
+}
+
+main.crear-producto div.nuevo-oferta div.nuevo{
+
+}
+
+main.crear-producto div.nuevo-oferta div.oferta{
+
+}
+
+main.crear-producto div.nuevo-oferta div.nuevo input{
+  display: none;
+} 
+
+main.crear-producto div.nuevo-oferta div.oferta input{
+  display: none;
+} 
+
+main.crear-producto div.nuevo-oferta div.nuevo div.nuevo-oferta-contenedor {
+  width: 80px;
+  height: 80px;
+  background-color: var(--gris-claro);
+  transition: all 0.5s ease;
+  display: inline-block;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 50%;
+}
+
+main.crear-producto div.nuevo-oferta div.nuevo input:checked + div.nuevo-oferta-contenedor{
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(249,155,125,1) 100%);
+  color: var(--blanco);
+
+}
+
+main.crear-producto div.nuevo-oferta div.oferta div.nuevo-oferta-contenedor {
+  width: 80px;
+  height: 80px;
+  background-color: var(--gris-claro);
+  transition: all 0.5s ease;
+  display: inline-block;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 50%;
+}
+
+
+main.crear-producto div.nuevo-oferta div.oferta input:checked + div.nuevo-oferta-contenedor{
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(249,155,125,1) 100%);
+  color: var(--blanco);
+
+}
+
+
+/*SWITCH*/
+
+main.crear-producto .contenedor-switch input.input-switch-disponible {
+  display: none;
+}
+main.crear-producto .contenedor-switch.contenedor-switch label {
+  color: var(--verde-azulado-claro);
+  position: relative;
+}
+main.crear-producto .contenedor-switch input.input-switch-disponible + label::before {
+  content: " ";
+  display: block;
+  height: 18px;
+  width: 45px;
+  border: 1px solid var(--gris-claro);
+  border-radius: 9px;
+  position: absolute;
+  top: 0px;
+  left: -65px;
+  background: var(--gris-claro);
+}
+
+main.crear-producto .contenedor-switch input.input-switch-disponible:checked + label::before{
+  background-color: var(--verde-azulado-claro);
+  border: 1px solid var(--verde-azulado-claro);
+}
+
+main.crear-producto .contenedor-switch input.input-switch-disponible + label::after {
+  content: " ";
+  display: block;
+  height: 30px;
+  width: 30px;
+  border: 1px solid var(--gris85);
+  border-radius: 50%;
+  position: absolute;
+  top: -6px;
+  left: -75px;
+  background: var(--gris85);
+  transition: all 0.3s ease-in;
+}
+
+
+main.crear-producto .contenedor-switch input.input-switch-disponible:checked + label::after {
+  left: -40px;
+  transition: all 0.3s ease-in;
+  background: var(--molocoton-oscuro);
+  border: 1px solid var(--molocoton-oscuro);
+}
+
+
+/*ESTILOS SUBIR IMAGEN*/
+
+/*TITULAR SUBIR IMAGEN*/
+main.crear-producto div.vista-producto-crear-editar-contenedor div.card div.subir-imagen h3 {
+  font-size: var(--letra-grande);
+  line-height: 1;
+  color: var(--verde-azulado-claro);
+  margin-bottom: 0;
+}
+
+/*CONTENEDORES DE IMPUT SUBIR IMAGEN*/
+main.crear-producto div.vista-producto-crear-editar-contenedor div.card div.subir-imagen div.contenedor-input-label-crear-producto {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+
+main.crear-producto div.vista-producto-crear-editar-contenedor div.card div.subir-imagen div.contenedor-input-label-crear-producto div {
+    margin: 0 0 0.5rem 0;
+    color: var(--gris-claro);
+}
+
+main.crear-producto div.vista-producto-crear-editar-contenedor div.card div.subir-imagen div.contenedor-input-label-crear-producto input.input-imagen-crear-edit-producto {
+    display: none;
+}
+
+
+main.crear-producto div.vista-producto-crear-editar-contenedor div.card div.subir-imagen div.contenedor-input-label-crear-producto label.editar-crear-producto {
+    width: 100%;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    background: var(--blanco);
+    border-radius: 7px;
+    border: 3px solid var(--gris85);
+    transition: all 0.5s ease;
+  }
+
+
+  main.crear-producto div.vista-producto-crear-editar-contenedor div.card div.subir-imagen div.contenedor-input-label-crear-producto label.editar-crear-producto:hover {
+    border-color: var(--molocoton-oscuro);
+  }
+
+
+  main.crear-producto div.vista-producto-crear-editar-contenedor div.card div.subir-imagen div.contenedor-input-label-crear-producto .btn {
+    display: inline-block;
+    margin: 0.5rem 0.5rem 1rem 0.5rem;
+    font-weight: 500;
+    font-size: var(--letra-mediana);
+    text-decoration: none;
+    border: none;
+    border-radius: 0.2rem;
+    outline: none;
+    padding: 0 1rem;
+    height: 36px;
+    line-height: 36px;
+    color: var(--blanco);
+    transition: all 1s ease-in-out;
+    background: var(--verde-azulado-claro);
+ 
+  }
+
+  main.crear-producto div.vista-producto-crear-editar-contenedor div.card div.subir-imagen div.contenedor-input-label-crear-producto .btn:hover {
+    background-color: var(--gris85);
+    color: var(--gris-pizarra);
+  }
+
+
+  main.crear-producto div.vista-producto-crear-editar-contenedor div.card div.subir-imagen div.contenedor-input-label-crear-producto div.icono-archivo-imagen-crear-editar i.fa {
+    font-size: 50px;
+    margin-bottom: 1rem;
+    transition: all 0.2s ease-in-out;
+  }
+
+
+  main.crear-producto div.vista-producto-crear-editar-contenedor div.card div.subir-imagen div.contenedor-input-label-crear-producto div.icono-archivo-imagen-crear-editar i.fa:hover {
+    transform: scale(0.8);
+    opacity: 0.3;
+  }
+
+
+  main.crear-producto div.vista-producto-crear-editar-contenedor div.card div.subir-imagen div.contenedor-input-label-crear-producto label.editar-crear-producto:hover {
+    border: 3px solid var(--molocoton-oscuro);
+    box-shadow: inset 0 0 5px 6px rgba(249, 155, 128, 0.4);
+  }
+
+
+  main.crear-producto div.vista-producto-crear-editar-contenedor div.card div.subir-imagen div.contenedor-input-label-crear-producto span.mensaje-para-usuario-imagen-crear-edit {
+    display: block;
+    font-size: var(--letra-mas-pequeña);
+    color: var(--molocoton-oscuro);
+  }
+
+
+/*--------------------------------------------------------------------------*/
+/*------------------------MEDUA QUERY TABLER-------------------------------*/
+
+@media (min-width: 768px) {
+
+    main.crear-producto div.vista-producto-crear-editar-contenedor{
+      
+width: 65%;
+      
+margin-left: 250px;
+    }
+
+    main.crear-producto div.vista-producto-crear-editar-contenedor div.contenedor-titulo-boton-crear-editar{
+        width: 85%;
+    }
+
+    main.crear-producto div.vista-producto-crear-editar-contenedor div.card div.subir-imagen div.contenedor-input-label-crear-producto {
+
+width: 70%;
+
+}
+
+}
+
+/*-----------------------MEDIA QUERY DESKTOP---------------------------*/
+
+
+@media (min-width: 1024px) {
+    
+    main.crear-producto div.vista-producto-crear-editar-contenedor{
+    width: 70%;
+    }
+    
+    main.crear-producto div.vista-producto-crear-editar-contenedor div.contenedor-titulo-boton-crear-editar{
+        width: 70%;
+    }
+    
+    main.crear-producto div.vista-producto-crear-editar-contenedor  a.btn-custom-crear-producto{
+        font-size: var(--letra-grande);
+        width: 180px;
+        height: 50px;
+    }
+    
+    main.crear-producto div.vista-producto-crear-editar-contenedor div.contenedor-titulo-boton-crear-editar h1.text-custom-crear-producto{
+        font-size: var(--letra-titular-menor);
+    }
+        
+    main.crear-producto div.vista-producto-crear-editar-contenedor div.card div.subir-imagen h3 {
+    
+    }
+    
+    main.crear-producto div.vista-producto-crear-editar-contenedor div.card div.subir-imagen div.contenedor-input-label-crear-producto {
+        width: 50%;
+        max-width: 400px;
+    }
+    
+} 
+

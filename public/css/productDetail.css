@@ -6,14 +6,20 @@
 
 /*-------MAIN -----VISTA PRODUCTO-----------*/
         main.vista-producto {
-font-family: var(--fuente-general);
-width: 100vw;
-}
+
+font-family: var(--fuente-general);
+
+width: 100vw;
+
+}
 
         main.vista-producto div.contenedor-busqueda {
-    font-size: var(--letra-mas-pequeña);
-    margin: 20px 0 20px 30px;
-    }
+    
+font-size: var(--letra-mas-pequeña);
+    
+margin: 20px 0 20px 30px;
+    
+}
 
         main.vista-producto div.contenedor-busqueda a{
     
@@ -45,17 +51,28 @@
         }
 
         main.vista-producto section.visualizacion-producto div.contenedor-vistas-imagenes div.contenedor-blazerOver-principal{
-    width: 100%;
-    position: relative;
-    height: 450px;
-    /* height: 100%;*/
-    border-radius: 5%;
-    background-color: var(--gris-claro);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    }
+    
+width: 100%;
+    
+position: relative;
+    
+height: 450px;
+    
+/* height: 100%;*/
+    
+border-radius: 5%;
+    
+background-color: var(--gris-claro);
+    
+display: flex;
+    
+justify-content: center;
+    
+align-items: center;
+    
+overflow: hidden;
+    
+}
 
 
 
@@ -583,27 +600,43 @@ main.vista-producto section.visualizacion-producto div.contenedor-vistas-imagene
         }       
 
         main.vista-producto section.otrosFav div.contenedor-otros-productos {
-display: flex;
-width: 100%;
-flex-wrap: wrap;
-justify-content: center;
-}
+
+display: flex;
+
+width: 100%;
+
+flex-wrap: wrap;
+
+justify-content: center;
+
+}
 
 
         main.vista-producto section.otrosFav div.contenedor-otros-productos article.dos-continentes{
-width: 45%;
-height: 200px;
-/* padding: 10px 20px 10px 20px; */
-border: 1px solid var(--gris-claro);
-border-radius: 5%;
-text-align: center;
-margin-right: 10px;
-}
+
+width: 45%;
+
+height: 200px;
+
+/* padding: 10px 20px 10px 20px; */
+
+border: 1px solid var(--gris-claro);
+
+border-radius: 5%;
+
+text-align: center;
+
+margin-right: 10px;
+
+}
 
         main.vista-producto section.otrosFav div.contenedor-otros-productos article.productos-otrosFav img.blazer-dos-conti{
-width: 100px;
-margin: 10px;
-}
+
+width: 100px;
+
+margin: 10px;
+
+}
 
         main.vista-producto section.otrosFav div.contenedor-otros-productos article.productos-otrosFav a.a-dos-conti{
                 text-decoration: none;
@@ -633,18 +666,28 @@ main.vista-producto section.visualizacion-producto div.contenedor-vistas-imagene
         }
 
         main.vista-producto section.otrosFav div.contenedor-otros-productos article.poison-ivy {
-width: 45%;
-height: 200px;
-border: 1px solid var(--gris-claro);
-border-radius: 5%;
-text-align: center;
-margin-left: 10px;
-}
+
+width: 45%;
+
+height: 200px;
+
+border: 1px solid var(--gris-claro);
+
+border-radius: 5%;
+
+text-align: center;
+
+margin-left: 10px;
+
+}
 
         main.vista-producto section.otrosFav div.contenedor-otros-productos article.productos-otrosFav img.chaqueta-ivy {
-width: 90px;
-top: -10px;
-}
+
+width: 90px;
+
+top: -10px;
+
+}
 
         main.vista-producto section.otrosFav div.contenedor-otros-productos article.productos-otrosFav a.a-chaqueta-ivy {
 
@@ -674,20 +717,32 @@ main.vista-producto section.visualizacion-producto div.contenedor-vistas-imagene
         }
 
         main.vista-producto section.otrosFav div.contenedor-otros-productos article.weird-barbie {
-width: 45%;
-margin-top: 20px;
-border: 1px solid var(--gris-claro);
-border-radius: 5%;
-text-align: center;
-height: 200px;
-margin-right: 10px;
-}
+
+width: 45%;
+
+margin-top: 20px;
+
+border: 1px solid var(--gris-claro);
+
+border-radius: 5%;
+
+text-align: center;
+
+height: 200px;
+
+margin-right: 10px;
+
+}
 
         main.vista-producto section.otrosFav div.contenedor-otros-productos article.productos-otrosFav img.chaqueta-weird-barbie {
-width: 100px;
-margin-bottom: 11%;
-position: relative;
-}
+
+width: 100px;
+
+margin-bottom: 11%;
+
+position: relative;
+
+}
 
         main.vista-producto section.otrosFav div.contenedor-otros-productos article.productos-otrosFav a.a-weird-barbie {
 
@@ -720,15 +775,24 @@ main.vista-producto section.visualizacion-producto div.contenedor-vistas-imagene
         }
 
         main.vista-producto section.otrosFav div.contenedor-otros-productos article.lets-normcore {
-width: 45%;
-padding: 0 20px 10px 20px;
-border: 1px solid var(--gris-claro);
-border-radius: 5%;
-margin-top: 20px;
-text-align: center;
-height: 200px;
-margin-left: 10px;
-}
+
+width: 45%;
+
+padding: 0 20px 10px 20px;
+
+border: 1px solid var(--gris-claro);
+
+border-radius: 5%;
+
+margin-top: 20px;
+
+text-align: center;
+
+height: 200px;
+
+margin-left: 10px;
+
+}
 
         main.vista-producto section.otrosFav div.contenedor-otros-productos article.productos-otrosFav img.abrigo-lets-normcore {
 
@@ -1275,23 +1339,37 @@ main.vista-producto section.visualizacion-producto div.contenedor-vistas-imagene
 
 
         main.vista-producto section.otrosFav div.contenedor-otros-productos {
-display: flex;
-width: 98%;
-flex-wrap: wrap;
-align-items: self-end;
-justify-content: space-between;
-}
+
+display: flex;
+
+width: 98%;
+
+flex-wrap: wrap;
+
+align-items: self-end;
+
+justify-content: space-between;
+
+}
 
 
         main.vista-producto section.otrosFav div.contenedor-otros-productos article.dos-continentes{
-padding: 10px 20px 10px 20px;
-border: 1px solid var(--gris-claro);
-border-radius: 5%;
-width: 30%;
-text-align: center;
-height: 300px;
-margin-right: revert;
-}
+
+padding: 10px 20px 10px 20px;
+
+border: 1px solid var(--gris-claro);
+
+border-radius: 5%;
+
+width: 30%;
+
+text-align: center;
+
+height: 300px;
+
+margin-right: revert;
+
+}
 
         main.vista-producto section.otrosFav div.contenedor-otros-productos article.productos-otrosFav img.blazer-dos-conti{
         
@@ -1312,11 +1390,16 @@ main.vista-producto section.visualizacion-producto div.contenedor-vistas-imagene
 
     
         main.vista-producto section.otrosFav div.contenedor-otros-productos article.poison-ivy {
-width: 31%;
-height: 300px;
-padding: 0 20px 10px 20px;
-margin-left: revert;
-}
+
+width: 31%;
+
+height: 300px;
+
+padding: 0 20px 10px 20px;
+
+margin-left: revert;
+
+}
 
         main.vista-producto section.otrosFav div.contenedor-otros-productos article.productos-otrosFav img.chaqueta-ivy {
                 
@@ -1330,10 +1413,14 @@ main.vista-producto section.visualizacion-producto div.contenedor-vistas-imagene
  
 
         main.vista-producto section.otrosFav div.contenedor-otros-productos article.weird-barbie {
-        width: 30%;
-        height: 300px;
-        margin-right: revert;
-        }      
+        
+width: 30%;
+        
+height: 300px;
+        
+margin-right: revert;
+        
+}      
 
          main.vista-producto section.otrosFav div.contenedor-otros-productos article.productos-otrosFav img.chaqueta-weird-barbie {
                 
