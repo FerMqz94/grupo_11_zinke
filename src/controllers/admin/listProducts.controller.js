@@ -1,8 +1,12 @@
-module.exports = (req,res) => {
-    res.render("./admin/listProducts", {}, (err,content) => {
-      err && res.send(err.mesage)
-      res.render('partials/dashboard', {
-        contentView:content
-      })
-    })
-  }
+const products = require("../../database/products.json")
+module.exports = (req, res) => {
+  res.render("admin/listProducts", { 
+    products
+   }, (err, content) => {
+
+    err && res.send(err.message)
+    res.render("partials/dashboard", {
+      contentView: content
+     })
+  })
+};

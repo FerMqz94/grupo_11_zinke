@@ -5,7 +5,6 @@
   <%- include("../partials/head", {view : "Listado productos"}) %>
 
 
-
 <body class="body-admin-list-products">
 
   <main>
@@ -36,28 +35,28 @@
             </tr>
           </thead>
           <tbody>
-
+            <% products.forEach(p => { %>
             <!-- <div class="dflex flex-column"> -->
             <tr>
-              <th scope="row">1</th>
-              <td><img class="img-product" src="/images/products/poison-ivy.png" alt=""></td>
-              <td class="">Poison Ivy</td>
-              <td class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores sequi esse amet consectetur, optio
-                numquam in a sunt facere nulla quis consequuntur architecto fugiat debitis, dignissimos aliquam laborum
-                tempore beatae?</td>
-              <td class="">Chaqueta de cuero Roja,Negra y Beige</td>
-              <td class="">Avrigo</td>
-              <td class="">Negro-Rojo-Crema</td>
-              <td class="">80000</td>
-              <td class="">M</td>
-              <td class="">SI</td>
+              <th scope="row"><%= p.id %></th>
+              <td><img class="img-product" src="/images/products/<%= p.image[0] %>" alt=""></td>
+              <td class=""><%= p.name %></td>
+              <td class=""><%= p.description %></td>
+              <td class=""><%= p.featuredDescription %></td>
+              <td class=""><%= p.category %></td>
+              <td class=""><%= p.colors %></td>
+              <td class=""><%= p.price %></td>
+              <td class=""><%= p.size %></td>
+              <td class=""><%= p.new %></td>
+              <td class=""><%= p.sale %></td>
+              <td class=""><%= p.available %></td>
 
 
               <td>
                 <div class="btn-group" role="group" aria-label="Basic example">
                   <a href="" class="btn acc-btn btn-info d-inline-block info">Info</a>
                   <a href="/admin/editar-productos" class="btn acc-btn btn-warning d-inline-block editar">Editar</a>
-                  <a href="" class="btn acc-btn btn-danger d-inline-block eliminar">Eliminar</a>
+                  <a href="/admin/eliminar-producto?id=<%= p.id %>&name=<%= p.name %>" class="btn acc-btn btn-danger d-inline-block eliminar">Eliminar</a>
                 </div>
               </td>
             </tr>
@@ -65,7 +64,7 @@
 
             
 
-
+            <% }) %>
           </tbody>
         </table>
       </div>

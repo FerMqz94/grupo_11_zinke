@@ -1,18 +1,18 @@
-<!-- Flexbox container for aligning the toasts -->
-<div aria-live="polite" aria-atomic="true" class="d-flex justify-content-center align-items-center w-100">
+<div class="deleteProduct">
+<%- include("../partials/head", {view : "Eliminar productos"}) %>
 
-  <!-- Then put toasts within -->
-  <div class="card p-5">
-    <div class="card-title">
-      <!-- <img src="..." class="rounded me-2" alt="..."> -->
-      <strong class="me-auto">Eliminación de producto</strong>      
+<div class="container mt-5">
+  <div class="card product-delete-card">
+    <div class="card-header">
+      <h5 class="card-title">Eliminación de Producto</h5>
     </div>
     <div class="card-body">
-      Estas seguro de eliminar el producto: <%= title %>
+      <p class="card-text">¿Estás seguro de querer eliminar el producto: <strong><%= name %></strong>?</p>
+      <form action="/admin/eliminar-producto/<%= id %>?_method=DELETE" method="post" class="d-flex justify-content-around">
+        <button type="submit" class="btn btn-delete">Eliminar</button>
+        <a href="/admin/productos" class="btn btn-cancel">Cancelar</a>
+      </form>
     </div>
-    <form action="/admin/eliminar-producto/<%= id %>?_method=DELETE" method="post">
-      <button type="submit" class="btn btn-danger">Eliminar</button>
-      <a href="/admin/productos" class="btn btn-dark">Cancelar</a>
-    </form>
   </div>
+</div>
 </div>

@@ -1,48 +1,117 @@
 [
-    {
-        "id": 1,
-        "image": ["poison-ivy.png"],
-        "name": "poison ivy",
-        "description": "description description description",
-        "featuredDescription": "Perfecto para verte urbanx, clasicx y edgy",
-        "category": "Abrigos",
-        "colors": ["red", "black", "cream"],
-        "price": 80000,
-        "size": [1, 2, 3, 4, 5],
-        "new": true,
-        "sale": false, 
-        "available": true
-    },
-    
-    {
-        "id": 2,
-        "image": ["blazer-1.png"],
-        "name": "blazer-1",
-        "description": "descritpion descritpion descritpion",
-        "featuredDescription": "descritpion",
-        "category": "Abrigos",
-        "colors": "black",
-        "price": 9000,
-        "size": [1, 2, 3, 4, 5],
-        "new": true,
-        "sale": false,
-        "available": true
-    },
-    
-    {
-        "id": 3,
-        "image": ["blazer-over-vista4.jpg"],
-        "name": "blazer-over",
-        "description": "descritpion descritpion descritpion",
-        "featuredDescription": "descritpion",
-        "category": "Abrigos",
-        "colors": "green",
-        "price": 5000,
-        "size": [1, 2, 3, 4, 5],
-        "new": true,
-        "sale": false,
-        "available": false
-    }
+   {
+      "id": 1,
+      "image": [
+         "poison-ivy.png"
+      ],
+      "name": "poison ivy",
+      "description": "description description description",
+      "featuredDescription": "Perfecto para verte urbanx, clasicx y edgy",
+      "category": "Abrigos",
+      "colors": [
+         "red",
+         "black",
+         "cream"
+      ],
+      "price": 80000,
+      "size": [
+         1,
+         2,
+         3,
+         4,
+         5
+      ],
+      "new": true,
+      "sale": false,
+      "available": true
+   },
+   {
+      "id": 2,
+      "image": [
+         "blazer-1.png"
+      ],
+      "name": "blazer-1",
+      "description": "descritpion descritpion descritpion",
+      "featuredDescription": "descritpion",
+      "category": "Abrigos",
+      "colors": "black",
+      "price": 9000,
+      "size": [
+         1,
+         2,
+         3,
+         4,
+         5
+      ],
+      "new": true,
+      "sale": false,
+      "available": true
+   },
+   {
+    "id": 3,
+    "image": [
+       "prueba.jpg"
+    ],
+    "name": "prueba",
+    "description": "descritpion descritpion descritpion",
+    "featuredDescription": "descritpion",
+    "category": "Abrigos",
+    "colors": "black",
+    "price": 9000,
+    "size": [
+       1,
+       2,
+       3,
+       4,
+       5
+    ],
+    "new": true,
+    "sale": false,
+    "available": true
+ },
+ {
+    "id": 4,
+    "image": [
+       "prueba1.jpg"
+    ],
+    "name": "prueba",
+    "description": "descritpion descritpion descritpion",
+    "featuredDescription": "descritpion",
+    "category": "Abrigos",
+    "colors": "black",
+    "price": 9000,
+    "size": [
+       1,
+       2,
+       3,
+       4,
+       5
+    ],
+    "new": true,
+    "sale": false,
+    "available": true
+ },
+ {
+    "id": 5,
+    "image": [
+       "prueba2.jpg"
+    ],
+    "name": "prueba",
+    "description": "descritpion descritpion descritpion",
+    "featuredDescription": "descritpion",
+    "category": "Abrigos",
+    "colors": "black",
+    "price": 9000,
+    "size": [
+       1,
+       2,
+       3,
+       4,
+       5
+    ],
+    "new": true,
+    "sale": false,
+    "available": true
+ }
+
 ]
-
-

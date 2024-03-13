@@ -1,0 +1,79 @@
+/* Estilos Generales */
+.deleteProduct body {
+    background-color: var(--gris-pizarra);
+    color: var(--blanco);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.deleteProduct .container {
+  max-width: 600px;
+}
+
+/* Estilos de la Card */
+.deleteProduct .product-delete-card {
+  background-color: var(--blanco-almendra); 
+  color: var(--gris-pizarra);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.deleteProduct .product-delete-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.deleteProduct .card-header {
+  background-color: var(--verde-azulado); 
+  color: var(--blanco); 
+}
+
+.deleteProduct .card-title {
+  margin: 0;
+}
+
+
+.deleteProduct .btn {
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  transition: background-color 0.2s, color 0.2s, box-shadow 0.3s, transform 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.deleteProduct .btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.deleteProduct .btn-delete {
+  background-color: #E53935; 
+  color: var(--blanco);
+}
+
+
+.deleteProduct .btn-delete:hover {
+  background-color: #D32F2F;
+}
+
+.deleteProduct .btn-cancel {
+  background-color: #1E88E5;
+  color: var(--blanco);
+}
+
+
+.deleteProduct .btn-cancel:hover {
+  background-color: #1565C0; 
+}
+
+/* Media queries  */
+@media (max-width: 768px) {
+  .deleteProduct .d-flex {
+    flex-direction: column;
+  }
+  
+  .deleteProduct .btn {
+    margin-top: 10px;
+  }
+}
+
